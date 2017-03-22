@@ -1,0 +1,2 @@
+# Pages
+HMC static pages
