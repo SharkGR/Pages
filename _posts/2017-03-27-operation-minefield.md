@@ -2,7 +2,8 @@
 layout: post
 title: Operation Minefield
 date: 2017-03-27 21:00:00
-categories: arma3 event media
+categories: event
+tags: arma3 media
 ---
 
 
