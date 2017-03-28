@@ -13,31 +13,31 @@ categories: arma3 event media
 
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/0.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/0.jpg)
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/1.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/1.jpg)
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/2.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/2.jpg)
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/3.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/3.jpg)
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/4.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/4.jpg)
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/5.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/5.jpg)
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/6.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/6.jpg)
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/7.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/7.jpg)
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/8.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/8.jpg)
 
 ---
-![]({{ site.url }}/assets/{{ page.date | date: "%d/%m/%Y" }}/9.jpg)
+![]({{ site.url }}/assets/{{ page.date | date: "%d-%m-%Y" }}/9.jpg)
