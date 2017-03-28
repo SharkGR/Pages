@@ -53,4 +53,4 @@ permalink: /rules/
 
 ---
 
-_Η συζήτηση περι κανόνων βρίσκεται [εδώ](https://www.hellenic-milsim.community/t/topic/191/6) (απαιτεί εγγραφή στο forum)_
+_Η συζήτηση περι κανόνων βρίσκεται [εδώ](https://www.hellenic-milsim.community/t/topic/191) (απαιτεί εγγραφή στο forum)_
