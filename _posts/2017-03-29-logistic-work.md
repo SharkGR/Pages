@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Operation\: Logistic Work
+title: Op "Logistic Work"
 date: 2017-03-29 21:00:00
 categories: arma3 events
 tags: media debrief altis
