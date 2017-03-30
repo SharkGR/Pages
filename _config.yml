@@ -16,7 +16,7 @@
 title: Hellenic Milsim
 description: > # this means to ignore newlines until "baseurl:"
   Επίσημη ιστιοσελίδα της ομάδας Hellenic Milsim - Greek ArmA Community
-#baseurl: "Pages" # the subpath of your site, e.g. /blog
+baseurl: "Pages" # the subpath of your site, e.g. /blog
 forumurl: "https://www.hellenic-milsim.community"
 url: "https://hellenicmilsim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
