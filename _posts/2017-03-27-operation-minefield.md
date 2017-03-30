@@ -15,32 +15,4 @@ mission-maker: sotkork
 
 
 
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/0.jpg)
-
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/1.jpg)
-
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/2.jpg)
-
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/3.jpg)
-
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/4.jpg)
-
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/5.jpg)
-
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/6.jpg)
-
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/7.jpg)
-
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/8.jpg)
-
----
-![]({{ site.url }}/{{ site.baseurl }}/assets/{{ page.date | date: "%d-%m-%Y" }}/9.jpg)
+{% include postimg.html %}

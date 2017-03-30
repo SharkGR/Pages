@@ -1,0 +1,13 @@
+{% assign dateformatted = page.date | date: "%d-%m-%Y" %}
+{% assign imgpath =   page.date | date: "%d-%m-%Y" %}
+{{ imgpath }}
+
+{{ dateformatted }}
+
+<div>
+{% for myimage in site.static_files | where: "image", true %}
+  {% if myimage.path contains  dateformatted %}
+    <img class="screenshot ingame" src="{{ site.url }}{{ myimage.path }}">
+  {% endif %}
+{% endfor %}
+</div>
