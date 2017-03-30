@@ -22,7 +22,7 @@ mission-maker: sotkork
 <div>
 {% for myimage in site.static_files | where: "image", true %}
   {% if myimage.path contains  dateformatted %}
-    <img class="screenshot ingame" src="{{ site.url }}{{ myimage.path }}">
+    <img class="screenshot ingame" src="{{ myimage.path }}">
   {% endif %}
 {% endfor %}
 </div>
