@@ -1,8 +1,5 @@
 {% assign dateformatted = page.date | date: "%d-%m-%Y" %}
 {% assign imgpath =   page.date | date: "%d-%m-%Y" %}
-{{ imgpath }}
-
-{{ dateformatted }}
 
 <div>
 {% for myimage in site.static_files | where: "image", true %}

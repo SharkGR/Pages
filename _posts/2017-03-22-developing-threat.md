@@ -13,16 +13,4 @@ mission-maker: sotkork
 
 Οι στόχοι οι εξής, κατάληψη της εχθρικής βάσης και εξουδετέρωση τριών θέσεων. Αποθήκης πυρομαχικών, της θέσεως του πυροβολικού και της κεραίας επικοινωνιών.
 
-{% assign dateformatted = page.date | date: "%d-%m-%Y" %}
-{% assign imgpath =   page.date | date: "%d-%m-%Y" %}
-{{ imgpath }}
-
-{{ dateformatted }}
-
-<div>
-{% for myimage in site.static_files | where: "image", true %}
-  {% if myimage.path contains  dateformatted %}
-    <img class="screenshot ingame" src="{{ myimage.path }}">
-  {% endif %}
-{% endfor %}
-</div>
+{% include postimg.html %}
