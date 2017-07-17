@@ -1,0 +1,27 @@
+# main links
+main:
+  - title: "Ένταξη"
+    url: "#"
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+guides:
+  - title: "Κανονες"
+    children:
+      - title: "Προυποθεσεις Ενταξης"
+        url: "/join/requirements/"
+      - title: "Κανονες Ομάδας"
+        url: "/join/rules/"
+      - title: "Προγραμμα Αποστολων"
+        url: "/join/schedule/"
+  - title: "Προγραμματα και Mods"
+    children:
+      - title: "Εγκατάσταση Mods"
+      - title: "TeamSpeak 3"
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
