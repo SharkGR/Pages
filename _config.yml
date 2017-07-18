@@ -223,9 +223,36 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  - scope:
+      type: join
+    values:
+      share: true
+      layout: single
       sidebar:
-        nav: "navbar"
+        nav: "join-nav"
+
+  - scope:
+      type: guides
+    values:
+      author_profile: true
+      read_time: true
+      layout: single
+      share: true
+      sidebar:
+        nav: "join-nav"
+
   - scope:
       path: "assets/img"
     values:
       image: true
+
+
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:categories/:name
+
+  join:
+    output: true
+    permalink: /:collection/:name
