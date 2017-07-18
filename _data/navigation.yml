@@ -2,8 +2,10 @@
 main:
   - title: "Ένταξη"
     url: "#"
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Forum"
+    url: "https://hellenic-milsim.community"
+  - title: "Foreign Teams"
+    url: ""
 navbar:
   - title: "Κανονες"
     children:

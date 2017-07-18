@@ -1,0 +1,23 @@
+rath:
+  name: "rath"
+  avatar: "/assets/img/authors/rath.png"
+#  email: ""
+#  bio: "What do you want, jewels? I am a very extravagant man."
+#  avatar: "/assets/images/bio-photo-2.jpg"
+#  twitter: "extravagantman"
+
+laterna:
+  name: "Laterna"
+  avatar: "/assets/img/authors/laterna.png"
+#  email: ""
+#  bio: "I ordered what?"
+#  avatar: "/assets/images/bio-photo.jpg"
+#  twitter: "rhymeswithsackit"
+
+sotkork:
+  name: "sotkork"
+  avatar: "/assets/img/authors/sotkork.png"
+
+leonidas:
+  name: "Leonidas"
+  avatar: "/assets/img/authors/leonidas.png"
