@@ -157,7 +157,7 @@ timezone: "Europe/Athens" # http://en.wikipedia.org/wiki/List_of_tz_database_tim
 
 
 # Plugins (previously gems:)
-plugins:
+plugins_dir:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -223,6 +223,8 @@ defaults:
       comments: # true
       share: true
       related: true
+      sidebar:
+        nav: "navbar"
   - scope:
       path: "assets/img"
     values:

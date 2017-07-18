@@ -4,8 +4,6 @@ date: 2017-04-05 21:00:00
 categories: join
 author: laterna
 forum-topic: 124
-sidebar:
-  nav: "guides"
 ---
 
 Η διεύθυνση του TS είναι (χωρίς κωδικό):

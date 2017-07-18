@@ -2,9 +2,7 @@
 title: Προυποθέσεις Ένταξης
 date: 2017-04-05 21:00:00
 categories: join
-author: rath
-sidebar:
-  nav: "guides"
+author: laterna
 ---
 
 ## Τι χρειάζομαι για να μπω στην ομάδα σας;
