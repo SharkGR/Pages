@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Ένταξη"
-    url: "#"
+    url: "/join"
   - title: "Forum"
     url: "https://hellenic-milsim.community"
   - title: "Foreign Teams"
@@ -10,9 +10,9 @@ join-nav:
   - title: "Κανονες"
     children:
       - title: "Προυποθεσεις Ενταξης"
-        url: "/join/requirements/"
+        url: "/join/proypotheseis/"
       - title: "Κανονες Ομάδας"
-        url: "/join/rules/"
+        url: "/join/kanones/"
       - title: "Προγραμμα Αποστολων"
         url: "/join/schedule/"
   - title: "Προγραμματα και Mods"
