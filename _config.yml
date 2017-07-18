@@ -239,8 +239,6 @@ defaults:
       read_time: true
       layout: single
       share: true
-      sidebar:
-        nav: "join-nav"
 
   - scope:
       path: "assets/img"
