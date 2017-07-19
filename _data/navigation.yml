@@ -10,11 +10,11 @@ join-nav:
   - title: "Κανονες"
     children:
       - title: "Προυποθεσεις Ενταξης"
-        url: "/join/proypotheseis/"
+        url: "./proypotheseis/"
       - title: "Κανονες Ομάδας"
-        url: "/join/kanones/"
+        url: "./kanones/"
       - title: "Προγραμμα Αποστολων"
-        url: "/join/schedule/"
+        url: "./schedule/"
   - title: "Προγραμματα και Mods"
     children:
       - title: "Εγκατάσταση Mods"
