@@ -6,13 +6,10 @@ rath:
 #  avatar: "/assets/images/bio-photo-2.jpg"
 #  twitter: "extravagantman"
 
-laterna:
+Laterna:
   name: "Laterna"
   avatar: "/assets/img/authors/laterna.png"
-#  email: ""
-#  bio: "I ordered what?"
-#  avatar: "/assets/images/bio-photo.jpg"
-#  twitter: "rhymeswithsackit"
+#  steam: "TODO"
 
 sotkork:
   name: "sotkork"
