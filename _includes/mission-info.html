@@ -1,0 +1,15 @@
+<p class="mission__maker">
+  <strong><i class="fa fa-fw fa-user" aria-hidden="true"></i> Mission Maker: </strong>
+  <span itemprop="keywords">
+  {% for maker in page.mission.maker %}
+	<span class="page__taxonomy-item" rel="tag">{{ maker }}{% unless forloop.last %}<span class="sep">, </span>{% endunless %}</span>
+  {% endfor %}
+  </span>
+</p>
+
+<p class="mission__map">
+  <strong><i class="fa fa-fw fa-map" aria-hidden="true"></i> Map: </strong>
+  <span itemprop="keywords">
+	  <span class="page__taxonomy-item">{{ page.mission.map }}</span>
+  </span>
+</p>

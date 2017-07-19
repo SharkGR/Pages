@@ -4,7 +4,9 @@ date: 2017-03-22 21:00:00
 categories: arma3 events
 tags: media debrief stratis
 author: Laterna
-mission-maker: sotkork
+mission:
+  map: stratis
+  maker: sotkork
 header:
     overlay_color: "#000"
     overlay_filter: "0.5"
@@ -33,6 +35,8 @@ gallery:
       - url: /assets/22-03-2017/10.jpg
         image_path: /assets/22-03-2017/10.jpg
 ---
+
+
 
 
 **Συναγερμός** σημάνει σε αμερικανική στρατιωτική βάση. Εχθρικό πυροβολικό έχει αναπτυχθεί σε θέση ικανή να βάλει κατά της θέσης μας. Άμεση εκκένωση με εναέρια μέσα και αναδιοργάνωση σε προωθημένη βάση.

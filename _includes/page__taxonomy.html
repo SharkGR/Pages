@@ -5,3 +5,7 @@
 {% if site.category_archive.type and page.categories[0] %}
   {% include category-list.html %}
 {% endif %}
+
+{% if page.mission.map and page.mission.maker %}
+  {% include mission-info.html %}
+{% endif %}
