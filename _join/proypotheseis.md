@@ -2,6 +2,10 @@
 title: Προυποθέσεις Ένταξης
 date: 2017-04-05 21:00:00
 author: laterna
+header:
+    overlay_color: "#000"
+    overlay_filter: "0.5"
+    overlay_image: /assets/img/headers/join2-header.jpeg
 ---
 
 ## Τι χρειάζομαι για να μπω στην ομάδα σας;
