@@ -15,11 +15,11 @@ hms-community.teamspeak3.com
 
 
 1. Πατάτε στο `Bookmarks` &rarr; `Manage Bookmarks`
-<img src="/assets/img/teamspeak3-setup/step1.png" class="align-center">
+<img src="{{ site.baseurl }}/assets/img/teamspeak3-setup/step1.png" class="align-center">
 
 
 1. Πατάμε στο Add Bookmark
-<img src="/assets/img/teamspeak3-setup/step2.png" class="align-center">
+<img src="{{ site.baseurl }}/assets/img/teamspeak3-setup/step2.png" class="align-center">
 
 1. Eπικεντρωνόμαστε σε αυτό το παράθυρο μιας και είναι το πιο σημαντικό
   * **a** Στο Label βάζετε ότι όνομα θέλετε, στο παράδειγμα έχουμε βάλει `HMSC Community`
@@ -32,4 +32,4 @@ hms-community.teamspeak3.com
 
 Τέλος για να συνδεθείτε πάτε στο Bookmarks (Βελάκι 1) και μετά επιλέγετε το όνομα το οποίο δώσατε προηγουμένως. Μετά κάνετε click πάνω στο όνομα και συνδεθήκατε στον server.
 
-<img src="/assets/img/teamspeak3-setup/step3.png" class="align-center">
+<img src="{{ site.baseurl }}/assets/img/teamspeak3-setup/step3.png" class="align-center">
