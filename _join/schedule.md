@@ -3,7 +3,7 @@ title: "Προγραμμα Events"
 header:
     overlay_color: "#000"
     overlay_filter: "0.5"
-    overlay_image: /assets/headers/schedule-header.jpeg
+    overlay_image: /assets/img/headers/schedule-header.jpeg
 ---
 
 Το πρόγραμμα είναι το εξής:
