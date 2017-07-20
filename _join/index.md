@@ -14,7 +14,7 @@ title: "Θέλω να μπω στην ομάδα σας!"
  εκει θα βρείτε το πρόγραμμα τακτικών παιχνιδιών, και τους κανόνες της ομάδας.
 
 
-[prereqs]: /join/proypotheseis
-[schedule]: /join/schedule
-[ts]: /join/teamspeak3-setup
-[rules]: /join/kanones
+[prereqs]: {{ site.baseurl }}/join/proypotheseis
+[schedule]: {{ site.baseurl }}/join/schedule
+[ts]: {{ site.baseurl }}/join/teamspeak3-setup
+[rules]: {{ site.baseurl }}/join/kanones
