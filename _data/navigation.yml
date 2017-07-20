@@ -18,7 +18,9 @@ join-nav:
   - title: "Προγραμματα και Mods"
     children:
       - title: "Εγκατάσταση Mods"
+        url: "/join/mods-setup"
       - title: "TeamSpeak 3"
+        url: "/join/teamspeak3-setup"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
