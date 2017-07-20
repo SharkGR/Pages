@@ -1,5 +1,9 @@
 ---
 title: "Θέλω να μπω στην ομάδα σας!"
+header:
+    overlay_color: "#000"
+    overlay_filter: "0.5"
+    overlay_image: /assets/headers/join-header.jpeg
 ---
 
 Χαίρετε!
