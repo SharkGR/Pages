@@ -5,9 +5,7 @@ author: mak
 forum-topic: 124
 ---
 
-{% capture imgbase %}
-{{ site.baseurl }}/assets/img/mods-setup/
-{% endcapture %}
+{% capture imgbase %}{{ site.baseurl }}/assets/img/mods-setup/{% endcapture %}
 
 Αν ξέρετε πως δουλεύει το arma3sync, τα στοιχεία που χρειάζεστε είναι:
 
