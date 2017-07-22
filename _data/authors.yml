@@ -1,6 +1,7 @@
 rath:
   name: "rath"
   avatar: "/assets/img/authors/rath.png"
+  steam: 76561198111497530
 #  email: ""
 #  bio: "What do you want, jewels? I am a very extravagant man."
 #  avatar: "/assets/images/bio-photo-2.jpg"
@@ -9,16 +10,20 @@ rath:
 Laterna:
   name: "Laterna"
   avatar: "/assets/img/authors/laterna.png"
+  steam: 76561198079131819
 #  steam: "TODO"
 
 sotkork:
   name: "sotkork"
   avatar: "/assets/img/authors/sotkork.png"
+  steam: 76561198023939170
 
 leonidas:
   name: "Leonidas"
   avatar: "/assets/img/authors/leonidas.png"
+  steam: 76561198022123093
 
 mak:
   name: "MAK"
   avatar: "/assets/img/authors/leonidas.png"
+  steam: 76561198039860708
