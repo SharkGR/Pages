@@ -2,7 +2,11 @@
 title: Εγκατάσταση Mods
 date: 2017-04-05 21:00:00
 author: mak
-forum-topic: 124
+forum-topic: 300
+header:
+    overlay_color: "#000"
+    overlay_filter: "0.5"
+    overlay_image: /assets/img/mods-setup/mods-install-header.png
 ---
 
 {% include toc icon="gears" title="Περιεχόμενα" %}
