@@ -180,11 +180,19 @@
       {% endif %}
 
       {% if author.steam %}
-        <li>
-          <a href="https://steamcommunity.com/profiles/{{ author.steam }}" itemprop="sameAs">
-            <i class="fa fa-fw fa-steam-square" aria-hidden="true"></i> Steam
-          </a>
-        </li>
+	  	{% if author.steam contains "groups" %}
+	  		<li>
+				<a href="https://steamcommunity.com/{{ author.steam }}" itemprop="sameAs">
+		  			<i class="fa fa-fw fa-steam-square" aria-hidden="true"></i> Steam
+				</a>
+	  		</li>
+	  	{% else author.steam %}
+		<li>
+		  <a href="https://steamcommunity.com/profiles/{{ author.steam }}" itemprop="sameAs">
+			<i class="fa fa-fw fa-steam-square" aria-hidden="true"></i> Steam
+		  </a>
+		</li>
+	  {% endif %}
       {% endif %}
 
       {% if author.youtube %}
