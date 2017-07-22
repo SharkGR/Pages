@@ -19,10 +19,13 @@ Autoconfig: ftp://a3server.hellenic-milsim.community/.a3s/autoconfig
 * Κατεβάζουμε το πρόγραμμα [απο εδώ](a3sdownload) (κάτω κάτω που λέει _Click to download ArmA3Sync_)
 * Κάντε την εγκατάσταση και τρέξτε το πρόγραμμα
 
-Την πρώτη φορά θα σας ζητήσει να του πείτε που είναι εγκατεστημένο το Arma (αριστερά). Ο φάκελος του Steam συνήθως βρίσκεται στην τοποθεσία: `C:\Program Files (x86)\Steam\steamapps\common\Arma 3`. Βρείτε το `arma3_x64.exe` και πατήστε _Open_ (εικόνα δεξιά).
+Την πρώτη φορά θα σας ζητήσει να του πείτε που είναι εγκατεστημένο το Arma. Ο φάκελος του Steam συνήθως βρίσκεται στην τοποθεσία: `C:\Program Files (x86)\Steam\steamapps\common\Arma 3`.
 
-<img src="{{ imgbase }}1.png" class="align-left">
-<img src="{{ imgbase }}2.jpg" class="align-right">
+<img src="{{ imgbase }}1.png" class="align-center">
+
+Βρείτε το `arma3_x64.exe` και πατήστε _Open_
+
+<img src="{{ imgbase }}2.jpg" class="align-center">
 
 
 
@@ -34,7 +37,7 @@ Autoconfig: ftp://a3server.hellenic-milsim.community/.a3s/autoconfig
 
 μετά στον **μπλε σταυρό**
 
-<img src="{{ imgbase }}4.jpg" class="align-right">
+<img src="{{ imgbase }}4.jpg" class="align-center">
 
 Στο παράθυρο _New Repository_ βάζουμε το εξής στο πεδίο _Public auto-config url_: `ftp://a3server.hellenic-milsim.community/.a3s/autoconfig`
 
@@ -46,11 +49,13 @@ Autoconfig: ftp://a3server.hellenic-milsim.community/.a3s/autoconfig
 
 <img src="{{ imgbase }}7.jpg" class="align-center">
 
-Περιμένετε να τελειώσει η μπάρα (εικόνα αριστερά). Στη συνέχεια πατήστε _Select All_
-και το κουμπί _Play_ <i class="fa fa-play" aria-hidden="true"></i> (εικόνα δεξιά)
+Περιμένετε να τελειώσει η μπάρα
 
-<img src="{{ imgbase }}8.jpg" class="align-left">
-<img src="{{ imgbase }}9.png" class="align-right">
+<img src="{{ imgbase }}8.jpg" class="align-center">
+
+Πατήστε _Select All_ και το κουμπί _Play_ <i class="fa fa-play" aria-hidden="true"></i>
+
+<img src="{{ imgbase }}9.png" class="align-center">
 
 
 ## Ρύθμιση Modsets
