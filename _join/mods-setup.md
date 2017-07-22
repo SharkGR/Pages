@@ -5,6 +5,8 @@ author: mak
 forum-topic: 124
 ---
 
+{% include toc icon="gears" title="Περιεχόμενα" %}
+
 {% capture imgbase %}{{ site.baseurl }}/assets/img/mods-setup/{% endcapture %}
 
 Αν ξέρετε πως δουλεύει το arma3sync, τα στοιχεία που χρειάζεστε είναι:
@@ -14,7 +16,7 @@ Autoconfig: ftp://a3server.hellenic-milsim.community/.a3s/autoconfig
 ```
 
 
-## Εγκατάσταση arma3sync
+# Εγκατάσταση arma3sync
 
 * Κατεβάζουμε το πρόγραμμα [απο εδώ](a3sdownload) (κάτω κάτω που λέει _Click to download ArmA3Sync_)
 * Κάντε την εγκατάσταση και τρέξτε το πρόγραμμα
@@ -29,7 +31,7 @@ Autoconfig: ftp://a3server.hellenic-milsim.community/.a3s/autoconfig
 
 
 
-## Κατέβασμα Mods
+# Κατέβασμα Mods
 
 Πατήστε πάνω δεξια που λέει _Repositories_
 
@@ -58,7 +60,7 @@ Autoconfig: ftp://a3server.hellenic-milsim.community/.a3s/autoconfig
 <img src="{{ imgbase }}9.png" class="align-center">
 
 
-## Ρύθμιση Modsets
+# Ρύθμιση Modsets
 
 Αφου τελειώσει το κατέβασμα, γυρίστε στην αρχική καρτέλα _Addons_, και πατήστε το κουμπί
 _Modsets_.
