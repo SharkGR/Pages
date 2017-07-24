@@ -5,7 +5,7 @@ main:
   - title: "Forum"
     url: "https://hellenic-milsim.community"
   - title: "Foreign Teams"
-    url: ""
+    url: "/info/foreign-teams"
 join-nav:
   - title: "Κανονες"
     children:
