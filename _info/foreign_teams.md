@@ -38,13 +38,18 @@ These are the teams we've played with in the past, in roughly chronological orde
 ([JSON source][teams-json])
 
 {% for team in site.data.teams %}
-{% if team.name %}
+	{% if team.name == '' %}
+		{% continue %}
+	{% endif %}
 
-### {{ team.name }}
+<b>{{ team.name }}</b> - from <img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.png" alt="{{ team.country }}"> {{ team.country  | upcase }}
 
-Country: <img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.png" alt="{{ team.country }}"></img> {{ team.country  | upcase }}
 
-{% for link in site.data.teams.links %}
+{% if team.logo.size > 0 %}
+<img src="{{ team.logo }}" alt="team logo" class="align-center>
+{% endif %}
+
+{% for link in team.links %}
 
 		{% if link.steam %}
 <i class="fa fa-steam-square" aria-hidden="true"></i> Steam Group: {{ link.steam }}
@@ -63,8 +68,6 @@ Country: <img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.
 		{% endif %}
 
 	{% endfor %}
-
-{% endif %}
 
 {% endfor %}
 
