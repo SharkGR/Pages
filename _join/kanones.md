@@ -3,6 +3,7 @@ title: Κανόνες Ομάδας
 date: 2017-04-05 21:00:00
 author: laterna
 forum-topic: 191
+excerpt: "Κανόνας 0: 'Έχω διαβάσει και κατανοώ τους κανόνες'"
 header:
     overlay_color: "#000"
     overlay_filter: "0.5"
