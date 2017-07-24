@@ -46,7 +46,8 @@ These are the teams we've played with in the past, in roughly chronological orde
 		{% continue %}
 	{% endif %}
 <div class="team">
-<h3>{{ team.name }}</h3> - <img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.png" alt="{{ team.country }}"> <i>{{ team.country  | upcase }}</i>
+<h3>{{ team.name }}</h3>
+<img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.png" alt="{{ team.country }}"> <i>{{ team.country  | upcase }}</i>
 
 
 {% if team.logo.size > 0 %}
@@ -54,20 +55,23 @@ These are the teams we've played with in the past, in roughly chronological orde
 {% endif %}
 
 
-{% if team.links.steam %}
-<i class="fa fa-steam-square" aria-hidden="true"></i> Steam Group: {{ team.links.steam }}
+{% if team.links.url %}
+<i class="fa fa-globe" aria-hidden="true"></i> [Website]({{ linkdata.url }})
 {% endif %}
 
-{% if team.links.url %}
-<i class="fa fa-globe" aria-hidden="true"></i> Website: {{ linkdata.url }}
+
+{% if team.links.steam %}
+<i class="fa fa-steam-square" aria-hidden="true"></i> [Steam Group]({{ team.links.steam }})
 {% endif %}
+
 
 {% if team.links.youtube %}
-<i class="fa fa-youtube" aria-hidden="true"></i> Youtube Channel: {{ team.links.youtube }}
+<i class="fa fa-youtube" aria-hidden="true"></i> [Youtube Channel]({{ team.links.youtube }})
 {% endif %}
 
+
 {% if team.links.facebook %}
-<i class="fa fa-facebook" aria-hidden="true"></i> Facebook Page: {{ team.links.facebook }}
+<i class="fa fa-facebook" aria-hidden="true"></i> [Facebook Page]({{ team.links.facebook }})
 {% endif %}
 
 
