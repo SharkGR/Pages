@@ -1,64 +1,44 @@
-{
-    "@context": "http://schema.org",
-    "@type": "Organization",
-
-    "arma-serbia": {
-        "@id": "https://www.facebook.com/armaserbia",
-        "name": "",
-        "sameAs": ["https://www.youtube.com/channel/UCEdlkN2F7rYAfcC8lwnxLTw"],
-        "logo": "",
-        "address": {
-            "addressCountry": "rs",
+[
+    {
+        "name":"",
+        "country":"",
+        "logo":"",
+        "links":{
+            "steam":"",
+            "facebook":"",
+            "youtube":"",
+            "url":""
         }
     },
-
-    "sds-polska": {
-        "@id": "http://sds-polska.pl",
-        "name": "SDS Polska",
-        "sameAs": [],
-        "logo": "http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/cd/cd3021210f8c51ec3139da4337b085e3683b4759_full.jpg",
-        "address": {
-            "addressCountry": "pl",
+    {
+        "name":"arma-serbia",
+        "country":"rs",
+        "logo":"",
+        "links":{
+            "facebook":"https://www.facebook.com/armaserbia",
+            "youtube":"https://www.youtube.com/channel/UCEdlkN2F7rYAfcC8lwnxLTw"
         }
     },
-
-    "french-todo": {
-        "@id": "http://1errcc.xooit.org/index.php",
-        "name": "1er Régiment de Chars de Combat",
-        "sameAs": ["https://www.youtube.com/channel/UCn3CVkzAK6bXherWP0n64MA"],
-        "logo": "http://img.xooimage.com/files110/2/b/d/emblem_fr256p1-4c6832f.png",
-        "address": {
-            "addressCountry": "fr",
+    {
+        "name":"SDS Polska",
+        "country":"pl",
+        "logo":"http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/cd/cd3021210f8c51ec3139da4337b085e3683b4759_full.jpg",
+        "links":{
+            "steam":"",
+            "facebook":"",
+            "youtube":"",
+            "url":""
         }
     },
-
-    "kurdish-todo": {
-        "@id": "https://example.com",
-        "name": "",
-        "sameAs": [],
-        "logo": "",
-        "address": {
-            "addressCountry": "krg",
+    {
+        "name":"1er Régiment de Chars de Combat",
+        "country":"fr",
+        "logo":"http://img.xooimage.com/files110/2/b/d/emblem_fr256p1-4c6832f.png",
+        "links":{
+            "steam":"",
+            "facebook":"",
+            "youtube":"https://www.youtube.com/channel/UCn3CVkzAK6bXherWP0n64MA",
+            "url":"http://1errcc.xooit.org/index.php"
         }
-    },
-
-    "portoguese-todo": {
-        "@id": "https://example.com",
-        "name": "",
-        "sameAs": [],
-        "logo": "",
-        "address": {
-            "addressCountry": "pt",
-        }
-    },
-
-    "spanish-todo": {
-        "@id": "https://example.com",
-        "name": "",
-        "sameAs": [],
-        "logo": "",
-        "address": {
-            "addressCountry": "sp",
-        }
-    },
-}
+    }
+]
