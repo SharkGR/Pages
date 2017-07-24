@@ -2,7 +2,6 @@
 title: Προυποθέσεις Ένταξης
 date: 2017-04-05 21:00:00
 author: laterna
-excerpt: ""
 header:
     overlay_color: "#000"
     overlay_filter: "0.5"

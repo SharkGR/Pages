@@ -6,8 +6,6 @@ header:
     overlay_image: /assets/img/headers/join-header.jpeg
 ---
 
-Χαίρετε!
-
 Η διαδικασία ένταξης είναι η εξής:
 
 1. Επιβεβαιώνεται οτι πληρείτε τις [προυποθέσεις ένταξης][prereqs]

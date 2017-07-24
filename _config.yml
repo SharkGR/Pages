@@ -229,12 +229,14 @@ defaults:
     values:
       share: true
       layout: single
+      excerpt: ""
       sidebar:
         nav: "join-nav"
 
   - scope:
       type: guides
     values:
+      excerpt: ""
       author_profile: true
       read_time: true
       layout: single
