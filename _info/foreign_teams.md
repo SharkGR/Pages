@@ -4,6 +4,10 @@ date: 2017-07-24 21:00:00
 categories: events
 author: rath
 excerpt: "Wanna play with us? You've come to the right place!"
+header:
+    overlay_color: "#000"
+    overlay_filter: "0.5"
+    overlay_image: /assets/img/headers/teams-header.jpeg
 ---
 
 This page is for teams looking for a joint Co-Op or TvT session. If you'd like
@@ -51,19 +55,19 @@ These are the teams we've played with in the past, in roughly chronological orde
 
 {% for link in team.links %}
 
-		{% if link.steam %}
+		{% if team.links.steam %}
 <i class="fa fa-steam-square" aria-hidden="true"></i> Steam Group: {{ link.steam }}
 		{% endif %}
 
-		{% if link.url %}
+		{% if team.links.url %}
 <i class="fa fa-globe" aria-hidden="true"></i> Website: {{ link.url }}
 		{% endif %}
 
-		{% if link.youtube %}
+		{% if team.links.youtube %}
 <i class="fa fa-youtube" aria-hidden="true"></i> Youtube Channel: {{ link.youtube }}
 		{% endif %}
 
-		{% if link.facebook %}
+		{% if team.links.facebook %}
 <i class="fa fa-facebook" aria-hidden="true"></i> Facebook Page: {{ link.facebook }}
 		{% endif %}
 
