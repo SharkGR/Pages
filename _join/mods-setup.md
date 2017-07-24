@@ -3,6 +3,7 @@ title: Εγκατάσταση Mods
 date: 2017-04-05 21:00:00
 author: mak
 forum-topic: 300
+link: {{ site.forum }}/t/300
 header:
     overlay_color: "#000"
     overlay_filter: "0.5"

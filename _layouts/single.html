@@ -34,12 +34,12 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {%if page.forum-topic %}
-          {% capture forum_url %}{{ page.forum-topic }}{% endcapture %}
-          {% include forum-topic.html url=forum_url %}
-        {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+		{%if page.forum-topic %}
+		  {% capture forum_url %}{{ page.forum-topic }}{% endcapture %}
+		  {% include forum-topic.html url=forum_url %}
+		{% endif %}
       </section>
 
       <footer class="page__meta">
