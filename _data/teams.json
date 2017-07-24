@@ -20,6 +20,17 @@
             "youtube":"https://www.youtube.com/channel/UCEdlkN2F7rYAfcC8lwnxLTw"
         }
     },
+	{
+		"name":"Kurdistan Security Operations",
+		"country":"ku",
+		"logo":"ksecops-logo",
+		"links":{
+			"facebook": "https://www.facebook.com/KurdistanOperations/",
+			"steam":"http://steamcommunity.com/groups/KurdOps",
+			"youtube":"https://www.youtube.com/channel/UC0Qoywdu-nghllRlMCXB0kw",
+			"url":"http://www.gametracker.com/clan/KSecOps/"
+		}
+	},
     {
         "name":"SDS Polska",
         "country":"pl",
