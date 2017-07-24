@@ -9,11 +9,11 @@
 locale                   : "gr"
 title                    : "Hellenic Milsim"
 title_separator          : "-"
-description              : "An amazing website."
+description              : "Greek ArmA 3 Team"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/Pages" # the subpath of your site, e.g. "/blog"
 forum                    : "https://hellenic-milsim.community"
-repository               : "aklin/aklin.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"""
+repository               : "HellenicMilsim/Pages"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -72,7 +72,7 @@ social:
 analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-90955635-2
 
 
 # Site Author
