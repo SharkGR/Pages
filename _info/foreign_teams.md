@@ -6,34 +6,60 @@ author: rath
 excerpt: "Wanna play with us? You've come to the right place!"
 ---
 
-This page is still under development. Basically, if you're looking to play with us,
-we'd love to hear from you.
+This page is for teams looking for a joint Co-Op or TvT session. If you'd like
+to play with another team, and don't mind greek accents, we'd basically love to hear
+from you.
 
-Come to our teamspeak `hms-community.teamspeak3.com` to get the ball rolling!
+The easiest way to reach us is coming to our TeamSpeak at `hms-community.teamspeak3.com`
+and say hi, but you can also register at our forum and leave a message there.
+
+# Server
+
+So far we've hosted all joint sessions, since our Intel i7-4770 server seems to
+handle it very well: [Hetzner Rootserver EX-40][server-specs]
+
+# Mods
+
+We use a small subset of our regular modset when playing with other teams.
+These are:
+
+* ACE
+* CBA
+* TaskForceRadio
+* Most of RHS
+* Most CUP maps
+
+These are all well-known mods that almost all communities use, and a good
+starting point to the mods we'll end up using for our joint event.
+
+# Teams
+
+These are the teams we've played with in the past, in roughly chronological order.
+([JSON source][teams-json])
+
+### {{ team.name }}
 
 {% for team in site.data.teams %}
 {% if team.name %}
 
-	### {{ team.name }}
+Country: {{ team.country }}
 
-	Country: {{ team.country }}
-
-	{% for link in site.data.teams.links %}
+{% for link in site.data.teams.links %}
 
 		{% if link.steam %}
-			Steam Group: {{ link.steam }}
+Steam Group: {{ link.steam }}
 		{% endif %}
 
 		{% if link.url %}
-			Website: {{ link.url }}
+Website: {{ link.url }}
 		{% endif %}
 
 		{% if link.youtube %}
-			Youtube Channel: {{ link.youtube }}
+Youtube Channel: {{ link.youtube }}
 		{% endif %}
 
 		{% if link.facebook %}
-			Facebook Page: {{ link.facebook }}
+Facebook Page: {{ link.facebook }}
 		{% endif %}
 
 	{% endfor %}
@@ -41,3 +67,7 @@ Come to our teamspeak `hms-community.teamspeak3.com` to get the ball rolling!
 {% endif %}
 
 {% endfor %}
+
+
+[server-specs]: https://www.hetzner.com/dedicated-rootserver/ex40?country=gb
+[teams-json]: {{ site.url }}/{{ site.baseurl }}/_data/teams.json
