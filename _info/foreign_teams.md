@@ -41,6 +41,10 @@ starting point to the mods we'll end up using for our joint event.
 These are the teams we've played with in the past, in roughly chronological order.
 ([JSON source][teams-json])
 
+[server-specs]: https://www.hetzner.com/dedicated-rootserver/ex40?country=gb
+[teams-json]: https://github.com/HellenicMilsim/Pages/blob/master/_data/teams.json
+
+
 {% for team in site.data.teams %}
 	{% if team.name == '' %}
 		{% continue %}
@@ -82,7 +86,3 @@ These are the teams we've played with in the past, in roughly chronological orde
 </div>
 <div style="clear:both"></div>
 {% endfor %}
-
-
-[server-specs]: https://www.hetzner.com/dedicated-rootserver/ex40?country=gb
-[teams-json]: https://github.com/HellenicMilsim/Pages/blob/master/_data/teams.json
