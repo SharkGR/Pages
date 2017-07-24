@@ -45,8 +45,8 @@ These are the teams we've played with in the past, in roughly chronological orde
 	{% if team.name == '' %}
 		{% continue %}
 	{% endif %}
-
-<b>{{ team.name }}</b> - <img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.png" alt="{{ team.country }}"> <i>{{ team.country  | upcase }}</i>
+<div class="team">
+<h3>{{ team.name }}</h3> - <img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.png" alt="{{ team.country }}"> <i>{{ team.country  | upcase }}</i>
 
 
 {% if team.logo.size > 0 %}
@@ -55,24 +55,24 @@ These are the teams we've played with in the past, in roughly chronological orde
 
 {% for link in team.links %}
 
-		{% if team.links.steam %}
+		{% if link.steam %}
 <i class="fa fa-steam-square" aria-hidden="true"></i> Steam Group: {{ link.steam }}
 		{% endif %}
 
-		{% if team.links.url %}
+		{% if link.url %}
 <i class="fa fa-globe" aria-hidden="true"></i> Website: {{ link.url }}
 		{% endif %}
 
-		{% if team.links.youtube %}
+		{% if link.youtube %}
 <i class="fa fa-youtube" aria-hidden="true"></i> Youtube Channel: {{ link.youtube }}
 		{% endif %}
 
-		{% if team.links.facebook %}
+		{% if link.facebook %}
 <i class="fa fa-facebook" aria-hidden="true"></i> Facebook Page: {{ link.facebook }}
 		{% endif %}
 
 	{% endfor %}
-
+</div>
 {% endfor %}
 
 
