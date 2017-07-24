@@ -16,6 +16,7 @@
         "logo":"",
         "links":{
             "facebook":"https://www.facebook.com/armaserbia",
+			"steam":"http://steamcommunity.com/groups/arma_srbija",
             "youtube":"https://www.youtube.com/channel/UCEdlkN2F7rYAfcC8lwnxLTw"
         }
     },
@@ -24,10 +25,9 @@
         "country":"pl",
         "logo":"http://cdn.edgecast.steamstatic.com/steamcommunity/public/images/avatars/cd/cd3021210f8c51ec3139da4337b085e3683b4759_full.jpg",
         "links":{
-            "steam":"",
-            "facebook":"",
-            "youtube":"",
-            "url":""
+            "steam":"http://steamcommunity.com/groups/sds-polska",
+            "youtube":"https://www.youtube.com/channel/UC58N7hs_jaanmVV1UHoJ5Bg",
+            "url":"http://sds-polska.pl/"
         }
     },
     {
@@ -35,8 +35,7 @@
         "country":"fr",
         "logo":"http://img.xooimage.com/files110/2/b/d/emblem_fr256p1-4c6832f.png",
         "links":{
-            "steam":"",
-            "facebook":"",
+			"steam": "http://steamcommunity.com/groups/1erRCC",
             "youtube":"https://www.youtube.com/channel/UCn3CVkzAK6bXherWP0n64MA",
             "url":"http://1errcc.xooit.org/index.php"
         }
