@@ -243,6 +243,15 @@ defaults:
       share: true
 
   - scope:
+      type: info
+    values:
+      excerpt: ""
+      author_profile: false
+      read_time: false
+      layout: single
+      share: true
+
+  - scope:
       path: "assets/img"
     values:
       image: true
@@ -254,5 +263,9 @@ collections:
     permalink: /:collection/:categories/:name
 
   join:
+    output: true
+    permalink: /:collection/:path
+
+  info:
     output: true
     permalink: /:collection/:path
