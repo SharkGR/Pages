@@ -56,22 +56,26 @@ These are the teams we've played with in the past, in roughly chronological orde
 
 
 {% if team.links.url %}
-<i class="fa fa-globe" aria-hidden="true"></i> [Website]({{ linkdata.url }})
+<p>
+<i class="fa fa-globe" aria-hidden="true"></i> <a href="{{ team.links.url }}">Website</a>
 {% endif %}
 
 
 {% if team.links.steam %}
-<i class="fa fa-steam-square" aria-hidden="true"></i> [Steam Group]({{ team.links.steam }})
+<p>
+<i class="fa fa-steam-square" aria-hidden="true"></i> <a href="{{ team.links.steam }}">Steam Group</a>
 {% endif %}
 
 
 {% if team.links.youtube %}
-<i class="fa fa-youtube" aria-hidden="true"></i> [Youtube Channel]({{ team.links.youtube }})
+<p>
+<i class="fa fa-youtube" aria-hidden="true"></i> <a href="{{ team.links.youtube }}">Youtube Channel</a>
 {% endif %}
 
 
 {% if team.links.facebook %}
-<i class="fa fa-facebook" aria-hidden="true"></i> [Facebook Page]({{ team.links.facebook }})
+<p>
+<i class="fa fa-facebook" aria-hidden="true"></i> <a href="{{ team.links.facebook }}">Facebook Page</a>
 {% endif %}
 
 
