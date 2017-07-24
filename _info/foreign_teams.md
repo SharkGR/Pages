@@ -17,6 +17,10 @@ from you.
 The easiest way to reach us is coming to our TeamSpeak at `hms-community.teamspeak3.com`
 and say hi, but you can also register at our [forum]({{ site.forum }}) and leave a message there.
 
+# Timezone
+
+Our timezone is Europe/Athens GMT +3 hours
+
 # Server
 
 So far we've hosted all joint sessions, since our Intel i7-4770 server seems to
