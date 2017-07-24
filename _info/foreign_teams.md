@@ -11,7 +11,7 @@ to play with another team, and don't mind greek accents, we'd basically love to 
 from you.
 
 The easiest way to reach us is coming to our TeamSpeak at `hms-community.teamspeak3.com`
-and say hi, but you can also register at our forum and leave a message there.
+and say hi, but you can also register at our [forum]({{ site.forum }}) and leave a message there.
 
 # Server
 
@@ -37,29 +37,29 @@ starting point to the mods we'll end up using for our joint event.
 These are the teams we've played with in the past, in roughly chronological order.
 ([JSON source][teams-json])
 
-### {{ team.name }}
-
 {% for team in site.data.teams %}
 {% if team.name %}
 
-Country: {{ team.country }}
+### {{ team.name }}
+
+Country: <img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.png" alt="{{ team.country }}"></img> {{ team.country  | upcase }}
 
 {% for link in site.data.teams.links %}
 
 		{% if link.steam %}
-Steam Group: {{ link.steam }}
+<i class="fa fa-steam-square" aria-hidden="true"></i> Steam Group: {{ link.steam }}
 		{% endif %}
 
 		{% if link.url %}
-Website: {{ link.url }}
+<i class="fa fa-globe" aria-hidden="true"></i> Website: {{ link.url }}
 		{% endif %}
 
 		{% if link.youtube %}
-Youtube Channel: {{ link.youtube }}
+<i class="fa fa-youtube" aria-hidden="true"></i> Youtube Channel: {{ link.youtube }}
 		{% endif %}
 
 		{% if link.facebook %}
-Facebook Page: {{ link.facebook }}
+<i class="fa fa-facebook" aria-hidden="true"></i> Facebook Page: {{ link.facebook }}
 		{% endif %}
 
 	{% endfor %}
@@ -70,4 +70,4 @@ Facebook Page: {{ link.facebook }}
 
 
 [server-specs]: https://www.hetzner.com/dedicated-rootserver/ex40?country=gb
-[teams-json]: {{ site.url }}/{{ site.baseurl }}/_data/teams.json
+[teams-json]: https://github.com/HellenicMilsim/Pages/blob/master/_data/teams.json
