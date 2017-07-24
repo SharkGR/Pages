@@ -53,25 +53,24 @@ These are the teams we've played with in the past, in roughly chronological orde
 <img src="{{ team.logo }}" alt="team logo" class="align-right">
 {% endif %}
 
-{% for linkdata in team.links %}
 
-		{% if linkdata.steam %}
-<i class="fa fa-steam-square" aria-hidden="true"></i> Steam Group: {{ linkdata.steam }}
-		{% endif %}
+{% if team.links.steam %}
+<i class="fa fa-steam-square" aria-hidden="true"></i> Steam Group: {{ team.links.steam }}
+{% endif %}
 
-		{% if linkdata.url %}
+{% if team.links.url %}
 <i class="fa fa-globe" aria-hidden="true"></i> Website: {{ linkdata.url }}
-		{% endif %}
+{% endif %}
 
-		{% if linkdata.youtube %}
-<i class="fa fa-youtube" aria-hidden="true"></i> Youtube Channel: {{ linkdata.youtube }}
-		{% endif %}
+{% if team.links.youtube %}
+<i class="fa fa-youtube" aria-hidden="true"></i> Youtube Channel: {{ team.links.youtube }}
+{% endif %}
 
-		{% if linkdata.facebook %}
-<i class="fa fa-facebook" aria-hidden="true"></i> Facebook Page: {{ linkdata.facebook }}
-		{% endif %}
+{% if team.links.facebook %}
+<i class="fa fa-facebook" aria-hidden="true"></i> Facebook Page: {{ team.links.facebook }}
+{% endif %}
 
-	{% endfor %}
+
 </div>
 <div style="clear:both"></div>
 {% endfor %}
