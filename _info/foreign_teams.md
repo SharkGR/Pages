@@ -42,11 +42,11 @@ These are the teams we've played with in the past, in roughly chronological orde
 		{% continue %}
 	{% endif %}
 
-<b>{{ team.name }}</b> - from <img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.png" alt="{{ team.country }}"> {{ team.country  | upcase }}
+<b>{{ team.name }}</b> - <img src="{{ site.baseurl }}/assets/img/flags/small/{{ team.country }}.png" alt="{{ team.country }}"> <i>{{ team.country  | upcase }}</i>
 
 
 {% if team.logo.size > 0 %}
-<img src="{{ team.logo }}" alt="team logo" class="align-center>
+<img src="{{ team.logo }}" alt="team logo" class="align-center">
 {% endif %}
 
 {% for link in team.links %}
