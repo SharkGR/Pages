@@ -16,25 +16,25 @@
         "logo":"https://hellenicmilsim.github.io/Pages/assets/img/team-logos/arma-serbia.jpg",
         "links":{
             "facebook":"https://www.facebook.com/armaserbia",
-			"steam":"http://steamcommunity.com/groups/arma_srbija",
+            "steam":"http://steamcommunity.com/groups/arma_srbija",
             "youtube":"https://www.youtube.com/channel/UCEdlkN2F7rYAfcC8lwnxLTw"
         }
     },
-	{
-		"name":"Kurdistan Security Operations",
-		"country":"ku",
-		"logo":"https://hellenicmilsim.github.io/Pages/assets/img/team-logos/ksecops-logo.jpg",
-		"links":{
-			"facebook": "https://www.facebook.com/KurdistanOperations/",
-			"steam":"http://steamcommunity.com/groups/KurdOps",
-			"youtube":"https://www.youtube.com/channel/UC0Qoywdu-nghllRlMCXB0kw",
-			"url":"http://www.gametracker.com/clan/KSecOps/"
-		}
-	},
+    {
+        "name":"Kurdistan Security Operations",
+        "country":"ku",
+        "logo":"https://hellenicmilsim.github.io/Pages/assets/img/team-logos/ksecops-logo.jpg",
+        "links":{
+            "facebook":"https://www.facebook.com/KurdistanOperations/",
+            "steam":"http://steamcommunity.com/groups/KurdOps",
+            "youtube":"https://www.youtube.com/channel/UC0Qoywdu-nghllRlMCXB0kw",
+            "url":"http://www.gametracker.com/clan/KSecOps/"
+        }
+    },
     {
         "name":"SDS Polska",
         "country":"pl",
-        "logo":"https://yt3.ggpht.com/-_e3NCiN6NlU/AAAAAAAAAAI/AAAAAAAAAAA/fCBUVw6RYfA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg",
+        "logo":"https://hellenicmilsim.github.io/Pages/assets/img/team-logos/sds-polska-logo.jpg",
         "links":{
             "steam":"http://steamcommunity.com/groups/sds-polska",
             "youtube":"https://www.youtube.com/channel/UC58N7hs_jaanmVV1UHoJ5Bg",
@@ -44,11 +44,22 @@
     {
         "name":"1er Régiment de Chars de Combat",
         "country":"fr",
-        "logo":"http://img.xooimage.com/files110/2/b/d/emblem_fr256p1-4c6832f.png",
+        "logo":"https://hellenicmilsim.github.io/Pages/assets/img/team-logos/1eer.png",
         "links":{
-			"steam": "http://steamcommunity.com/groups/1erRCC",
+            "steam":"http://steamcommunity.com/groups/1erRCC",
             "youtube":"https://www.youtube.com/channel/UCn3CVkzAK6bXherWP0n64MA",
             "url":"http://1errcc.xooit.org/index.php"
+        }
+    },
+    {
+        "name":"Armalusa",
+        "country":"pt",
+        "logo":"https://hellenicmilsim.github.io/Pages/assets/img/team-logos/armalusa.png",
+        "links":{
+            "steam":"http://steamcommunity.com/groups/Armalusa",
+            "facebook":"https://www.facebook.com/armalusaportugal",
+            "youtube":"https://www.youtube.com/user/armalusa",
+            "url":"https://www.armalusa.pt/"
         }
     }
 ]
