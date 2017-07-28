@@ -61,5 +61,15 @@
             "youtube":"https://www.youtube.com/user/armalusa",
             "url":"https://www.armalusa.pt/"
         }
+    },
+	{
+        "name":"Compañia Firestorm",
+        "country":"es",
+        "logo":"https://hellenicmilsim.github.io/Pages/assets/img/team-logos/fs_logo.png",
+        "links":{
+            "steam":"http://steamcommunity.com/groups/CiaFirestorm",
+            "youtube":"https://www.youtube.com/channel/UCn0BMek0bjPEAkKSWXYXhlA",
+            "url":"http://www.comunidadgamerhispana.es"
+        }
     }
 ]
