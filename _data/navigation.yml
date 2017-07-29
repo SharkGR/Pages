@@ -6,6 +6,13 @@ main:
     url: "https://hellenic-milsim.community"
   - title: "Foreign Teams"
     url: "/info/foreign_teams"
+  - title: "Οδηγοι"
+    url: "/guides"
+guide-nav:
+    - title: "ArmA 3 Windows Server"
+      url: "/guides/arma-3-windows-server"
+    - title: "ArmA 3 Linux Server"
+      url: "/guides/arma-3-debian-server"
 join-nav:
   - title: "Κανονες"
     children:
