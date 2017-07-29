@@ -241,6 +241,8 @@ defaults:
       read_time: true
       layout: single
       share: true
+      sidebar:
+        nav: "guide-nav"
 
   - scope:
       type: info
