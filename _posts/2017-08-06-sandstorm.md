@@ -68,8 +68,6 @@ gallery:
       image_path: /assets/06-08-2017/ (27).jpg
     - url: /assets/06-08-2017/ (28).jpg
       image_path: /assets/06-08-2017/ (28).jpg
-    - url: /assets/06-08-2017/ (29).jpg
-      image_path: /assets/06-08-2017/ (29).jpg
     - url: /assets/06-08-2017/ (30).jpg
       image_path: /assets/06-08-2017/ (30).jpg
 ---
