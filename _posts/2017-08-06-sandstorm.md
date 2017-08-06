@@ -10,7 +10,7 @@ mission:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/06-08-2017/ (1).jpg
+  overlay_image: /assets/06-08-2017/ (20).jpg
 gallery:
     - url: /assets/06-08-2017/ (1).jpg
       image_path: /assets/06-08-2017/ (1).jpg
