@@ -1,7 +1,7 @@
 ---
-title: Briefing: Diplomatic Advantage
+title: Briefing&#58; Diplomatic Advantage
 date: 2017-08-07 12:00:00
-categories: arma3 events
+categories: arma3 events briefing
 tags: socom us chernarus alive
 author: rath
 mission:
