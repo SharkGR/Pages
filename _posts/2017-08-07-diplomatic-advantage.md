@@ -5,7 +5,7 @@ categories: arma3 events briefing
 tags: socom us chernarus alive
 author: rath
 mission:
-  map: cheruarus
+  map: chernarus
   maker: rath
 header:
   overlay_color: "#000"
