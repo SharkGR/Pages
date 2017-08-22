@@ -1,16 +1,13 @@
 <?xml version="1.0"?>
 <!DOCTYPE squad SYSTEM "squad.dtd">
 <?xml-stylesheet href="squad.xsl" type="text/xsl"?>
-<squad nick="">
-	<name></name>
+<squad nick="HM">
+	<name>Hellenic Milsim</name>
 	<email></email>
-	<web></web>
+	<web>https://hellenic-milsim.community</web>
 	<picture></picture>
-	<title></title>
-	<member id="" nick="">
-		<name></name>
-		<email></email>
-		<icq></icq>
-		<remark></remark>
+	<title>Hellenic Milsim</title>
+	<member id="" nick="rath">
+		<name>rath</name>
 	</member>
 </squad>
