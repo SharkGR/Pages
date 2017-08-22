@@ -8,6 +8,8 @@ main:
     url: "/info/foreign_teams"
   - title: "Οδηγοι"
     url: "/guides"
+  - title: "Media"
+    url: "/info/media"
 guide-nav:
     - title: "ArmA 3 Windows Server"
       url: "/guides/arma-3-windows-server"
