@@ -48,3 +48,7 @@ gallery:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z8c5RDlY8dI" frameborder="0" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OsnYt6CRtpM" frameborder="0" allowfullscreen></iframe>
+
+# Credits
+
+Πολλά μέσα που χρησιμοποιούμε (μουσική, εικόνες) προέρχονται απο καλλιτέχνες που μας έδωσαν δικαιώματα χρήσης. Τους ευχαριστούμε εδω
