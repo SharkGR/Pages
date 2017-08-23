@@ -4,6 +4,10 @@ date: 2017-01-14 21:00:00
 categories: arma3 server
 tags: tutorial admin
 author: rath
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  teaser: /assets/img/teasers/debian-server-teaser.jpeg
 ---
 
 
@@ -21,34 +25,33 @@ https://gameservermanagers.com/lgsm/arma3server/
 
 ---
 
-Login στο linux.
+1. Login στο linux.
 
-2. Προσθέτουμε το multiverse repository του Ubuntu 16.10 που περιέχει το steamcmd:
-
+1. Προσθέτουμε το multiverse repository του Ubuntu 16.10 που περιέχει το steamcmd:
++
 `deb http://uk.archive.ubuntu.com/ubuntu/ yakkety multiverse` στο αρχείο `/etc/apt/sources.list`.
 
-3. Βάζουμε 32bitη αρχιτεκτονική και τα κλειδιά του Ubuntu, και στη συνέχεια κάνουμε update
-
+1. Βάζουμε 32bitη αρχιτεκτονική και τα κλειδιά του Ubuntu, και στη συνέχεια κάνουμε update
+```
     sudo dpkg --add-architecture i386
     sudo apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 2EA8F35793D8809A 40976EAF437D05B5 3B4FE6ACC0B21F32
     sudo apt-get update && sudo apt-get upgrade -y
-
-Άν όλα πάνε καλά, εγκαθιστούμε τις προυποθέσεις του lgsm:
-
+```
+1. Άν όλα πάνε καλά, εγκαθιστούμε τις προυποθέσεις του lgsm:
+```
     sudo apt-get install mailutils postfix curl wget file gzip bzip2 bsdmainutils python util-linux tmux lib32gcc1 libstdc++6 libstdc++6:i386
+```
 
 ---
 
-Άν έχουμε ξεχωριστό δίσκο για τα mods, τον κάνουμε mount εδώ:
-
-
-
-    sudo apt-get install ntfs-3g -y #if NTFS
-    sudo mkdir -p /mnt/disks/mods
-
+> Σημείωση: Άν έχουμε ξεχωριστό δίσκο για τα mods, τον κάνουμε mount εδώ:
+```
+sudo apt-get install ntfs-3g -y #if NTFS
+sudo mkdir -p /mnt/disks/mods
+```
 ---
 
-Δημιουργούμε και μπαίνουμε σαν χρήστης arma3server:
+Δημιουργούμε τον χρήστη `arma3server` και κάνουμε login :
 
     sudo useradd -m -s /bin/bash arma3server
     echo "arma3server:`openssl rand -base64 32`" | sudo chpasswd

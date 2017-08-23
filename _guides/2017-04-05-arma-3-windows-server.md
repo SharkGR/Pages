@@ -4,6 +4,10 @@ date: 2017-04-05 21:00:00
 categories: arma3 server
 tags: tutorial admin
 author: rath
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  teaser: /assets/img/teasers/windows-server-teaser.jpeg
 ---
 
 Αυτός ο οδηγός παρουσιάζει τα βήματα για να στήσετε εναν dedicated server στο μηχάνημά σας.
