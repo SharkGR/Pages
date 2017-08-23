@@ -6,7 +6,7 @@ author: rath
 header:
     overlay_color: "#000"
     overlay_filter: "0.5"
-    overlay_image: /assets/img/headers/teams-header.jpeg
+    overlay_image: /assets/img/headers/media-header.jpeg
 gallery:
     - url: /assets/img/team-logos/hmc/image4493.png
       image_path: /assets/img/team-logos/hmc/image4493.png

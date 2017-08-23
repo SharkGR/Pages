@@ -12,9 +12,9 @@ main:
     url: "/info/media"
 guide-nav:
     - title: "ArmA 3 Windows Server"
-      url: "/guides/arma-3-windows-server"
+      url: "/guides/arma3/server/arma-3-windows-server"
     - title: "ArmA 3 Linux Server"
-      url: "/guides/arma-3-debian-server"
+      url: "/guides/arma3/server/arma-3-debian-server"
 join-nav:
   - title: "Κανονες"
     children:

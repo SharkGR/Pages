@@ -262,7 +262,7 @@ defaults:
 collections:
   guides:
     output: true
-    permalink: /:collection/:categories/:name
+    permalink: /:collection/:categories/:title
 
   join:
     output: true
