@@ -1,5 +1,5 @@
 ---
-title: Δημιουργία Arma 3 σε Windows
+title: Arma 3 Windows Server
 date: 2017-04-05 21:00:00
 categories: arma3 server
 tags: tutorial admin

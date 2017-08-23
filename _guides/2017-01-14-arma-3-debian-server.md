@@ -1,5 +1,5 @@
 ---
-title: Δημιουργία Arma 3 server σε Debian
+title: Arma 3 Debian Server
 date: 2017-01-14 21:00:00
 categories: arma3 server
 tags: tutorial admin
