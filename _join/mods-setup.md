@@ -22,7 +22,7 @@ Autoconfig: ftp://a3server.hellenic-milsim.community/.a3s/autoconfig
 
 # Εγκατάσταση arma3sync
 
-* Κατεβάζουμε το πρόγραμμα [απο εδώ](a3sdownload) (κάτω κάτω που λέει _Click to download ArmA3Sync_)
+* Κατεβάζουμε το πρόγραμμα [απο εδώ][a3sdownload] (κάτω κάτω που λέει _Click to download ArmA3Sync_)
 * Κάντε την εγκατάσταση και τρέξτε το πρόγραμμα
 
 Την πρώτη φορά θα σας ζητήσει να του πείτε που είναι εγκατεστημένο το Arma. Ο φάκελος του Steam συνήθως βρίσκεται στην τοποθεσία: `C:\Program Files (x86)\Steam\steamapps\common\Arma 3`.
