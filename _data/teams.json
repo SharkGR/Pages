@@ -74,12 +74,9 @@
     },
     {
         "name":"Arma Sweden",
-        "country":"SE",
+        "country":"se",
         "logo":"https://hellenicmilsim.github.io/Pages/assets/img/team-logos/arma-sweden.png",
         "links":{
-            "steam":"",
-            "facebook":"",
-            "youtube":"",
             "url":"http://www.armasweden.se"
         }
     },
