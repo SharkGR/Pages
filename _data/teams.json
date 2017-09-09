@@ -71,5 +71,16 @@
             "youtube":"https://www.youtube.com/channel/UCn0BMek0bjPEAkKSWXYXhlA",
             "url":"http://www.comunidadgamerhispana.es"
         }
-    }
+    },
+    {
+        "name":"Arma Sweden",
+        "country":"SE",
+        "logo":"https://hellenicmilsim.github.io/Pages/assets/img/team-logos/arma-sweden.png",
+        "links":{
+            "steam":"",
+            "facebook":"",
+            "youtube":"",
+            "url":"http://www.armasweden.se"
+        }
+    },
 ]
