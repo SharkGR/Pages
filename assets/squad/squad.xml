@@ -5,9 +5,12 @@
 	<name>Hellenic Milsim</name>
 	<email></email>
 	<web>https://hellenic-milsim.community</web>
-	<picture></picture>
+	<picture>patch.paa</picture>
 	<title>Hellenic Milsim</title>
-	<member id="" nick="rath">
+
+	<member id="76561198111497530" nick="rath">
 		<name>rath</name>
+		<remark>Mostly harmless</remark>
 	</member>
+
 </squad>
