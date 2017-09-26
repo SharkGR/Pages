@@ -3,14 +3,14 @@
 <?xml-stylesheet href="squad.xsl" type="text/xsl"?>
 <squad nick="HM">
 	<name>Hellenic Milsim</name>
-	<email></email>
+	<email>N/A</email>
 	<web>hellenic-milsim.community</web>
 	<picture>logo.paa</picture>
 	<title>Hellenic Milsim</title>
 	<member id="76561198111497530" nick="+= rath">
 		<name>+= rath</name>
 		<remark>Mostly harmless</remark>
-		<email></email>
-		<icq></icq>
+		<email>N/A</email>
+		<icq>N/A</icq>
 	</member>
 </squad>
