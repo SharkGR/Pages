@@ -40,6 +40,13 @@ These are:
 These are all well-known mods that almost all communities use, and a good
 starting point to the mods we'll end up using for our joint event.
 
+# Gameplay
+
+* First person enforced
+* TFAR enforced
+* No crosshairs
+* Basic medical model (ACE3) - epinephrine usable by all 
+
 # Teams
 
 These are the teams we've played with in the past, in roughly chronological order.
