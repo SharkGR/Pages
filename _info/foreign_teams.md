@@ -42,6 +42,7 @@ starting point to the mods we'll end up using for our joint event.
 
 # Gameplay
 
+* No respawn (permadeath)
 * First person enforced
 * TFAR enforced
 * No crosshairs
