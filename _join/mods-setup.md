@@ -16,7 +16,7 @@ header:
 Αν ξέρετε πως δουλεύει το arma3sync, τα στοιχεία που χρειάζεστε είναι:
 
 ```
-Autoconfig: ftp://a3server.hellenic-milsim.community/.a3s/autoconfig
+http://a3server.hellenic-milsim.community:7000/.a3s/autoconfig
 ```
 
 
@@ -50,6 +50,8 @@ Autoconfig: ftp://a3server.hellenic-milsim.community/.a3s/autoconfig
 <img src="{{ imgbase }}5.jpg" class="align-center">
 
 Πατήστε _Import_ και μετα _ΟΚ_.
+
+> Προσοχή: To autoconfig έχει αλλάξει απο τότε που φτιάχτηκαν οι εικόνες.
 
 Στη συνέχεια επιλέξτε _Notify_ και _Auto_, και πατάμε το τελευταίο εικονίδιο
 
