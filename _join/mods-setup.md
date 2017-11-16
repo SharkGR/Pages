@@ -51,8 +51,6 @@ http://a3server.hellenic-milsim.community:7000/.a3s/autoconfig
 
 Πατήστε _Import_ και μετα _ΟΚ_.
 
-> Προσοχή: To autoconfig έχει αλλάξει απο τότε που φτιάχτηκαν οι εικόνες.
-
 Στη συνέχεια επιλέξτε _Notify_ και _Auto_, και πατάμε το τελευταίο εικονίδιο
 
 <img src="{{ imgbase }}7.jpg" class="align-center">
