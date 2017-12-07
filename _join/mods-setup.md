@@ -45,7 +45,7 @@ http://a3server.hellenic-milsim.community:7000/.a3s/autoconfig
 
 <img src="{{ imgbase }}4.jpg" class="align-center">
 
-Στο παράθυρο _New Repository_ βάζουμε το εξής στο πεδίο _Public auto-config url_: `ftp://a3server.hellenic-milsim.community/.a3s/autoconfig`
+Στο παράθυρο _New Repository_ βάζουμε το εξής στο πεδίο _Public auto-config url_: `http://a3server.hellenic-milsim.community:7000/.a3s/autoconfig`
 
 <img src="{{ imgbase }}5.jpg" class="align-center">
 
