@@ -1,6 +1,6 @@
 ---
 title: Τριήμερο Εκπαιδεύσεων - Μέρα 1η
-date: 2018-01-21 19:47:00
+date: 2018-01-19 19:47:00
 categories: arma3 training
 tags: community training guide
 author: agent_scarn
