@@ -25,5 +25,10 @@ leonidas:
 
 mak:
   name: "MAK"
-  avatar: "/assets/img/authors/leonidas.png"
+  avatar: "/assets/img/authors/mak.jpg"
   steam: 76561198039860708
+
+agent_scarn:
+  name: "Agent Scarn"
+  avatar: "/assets/img/authors/agent_scarn.jpg"
+  steam: 76561198079164387
