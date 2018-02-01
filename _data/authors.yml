@@ -28,6 +28,11 @@ mak:
   avatar: "/assets/img/authors/mak.jpg"
   steam: 76561198039860708
 
+akouafortes:
+  name: "Akouafortes"
+  avatar: "/assets/img/authors/akouafortes.png"
+  steam: 76561198053590348
+
 agent_scarn:
   name: "Agent Scarn"
   avatar: "/assets/img/authors/agent_scarn.jpg"
