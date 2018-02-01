@@ -8,7 +8,7 @@ forum-topic: 1058
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/07-08-2017/header.jpg
+  overlay_image: https://steamuserimages-a.akamaihd.net/ugc/856106986405694391/F1E37A6FA7FEB5FB8C78970CA9D5C647A190C639/
 ---
 
 
