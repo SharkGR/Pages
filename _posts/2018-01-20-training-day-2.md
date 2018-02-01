@@ -1,5 +1,5 @@
 ---
-title: Τριήμερο Εκπαιδεύσεων: Μέρα 2η
+title: Τριήμερο Εκπαιδεύσεων - Μέρα 2η
 date: 2018-01-20 19:18:00
 categories: arma3 training
 tags: community training guide
