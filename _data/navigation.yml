@@ -7,7 +7,7 @@ main:
   - title: "Foreign Teams"
     url: "/info/foreign_teams"
   - title: "Οδηγοι"
-    url: "/guide"
+    url: "/guides"
   - title: "Media"
     url: "/info/media"
 guide-nav:
